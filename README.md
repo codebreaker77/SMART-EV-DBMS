@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Status-Active_Development-f59e0b?style=for-the-badge" />
 </p>
 
-# ⚡ GridSync — Intelligent EV Charging & Depot Management Engine
+# GridSync — Intelligent EV Charging & Depot Management Engine
 
 > A database-driven orchestration engine that balances physical electrical grid capacity with the scheduling demands of commercial fleets and retail EV drivers — ensuring every delivery van hits its target state-of-charge before departure without tripping a single substation breaker.
 
@@ -51,13 +51,13 @@ The engine captures the complete lifecycle: from grid supply limits and dynamic 
 
 | Capability | Description |
 |---|---|
-| 🔌 **Grid-Aware Scheduling** | Real-time substation capacity tracking prevents demand spikes and breaker trips |
-| 🚚 **Fleet Mission Priority** | Commercial vehicles with departure deadlines are prioritized over retail charging |
-| 🔒 **Temporal Exclusion Locks** | PostgreSQL `tsrange` exclusion constraints eliminate double-bookings at the engine level |
-| 💰 **Dynamic Time-of-Use Pricing** | Tariff plans with hourly rate windows drive cost-optimal charge scheduling |
-| 🔧 **Auto-Quarantine on Fault** | Maintenance log entries automatically set `ChargerBay.is_operational = false` |
-| 🧾 **Itemized Billing** | Invoices reflect energy costs, idle-time penalties, and applicable tariff bands |
-| 📊 **Multi-Role Access** | Drivers, depot managers, and technicians each operate within scoped permissions |
+| **Grid-Aware Scheduling** | Real-time substation capacity tracking prevents demand spikes and breaker trips |
+| **Fleet Mission Priority** | Commercial vehicles with departure deadlines are prioritized over retail charging |
+| **Temporal Exclusion Locks** | PostgreSQL `tsrange` exclusion constraints eliminate double-bookings at the engine level |
+| **Dynamic Time-of-Use Pricing** | Tariff plans with hourly rate windows drive cost-optimal charge scheduling |
+| **Auto-Quarantine on Fault** | Maintenance log entries automatically set `ChargerBay.is_operational = false` |
+| **Itemized Billing** | Invoices reflect energy costs, idle-time penalties, and applicable tariff bands |
+| **Multi-Role Access** | Drivers, depot managers, and technicians each operate within scoped permissions |
 
 ---
 
